@@ -2,7 +2,7 @@ import os, numpy as np, torch, imageio, shutil
 from PIL import Image
 from typing import List, Tuple, Literal
 from easydict import EasyDict as edict
-from .render_utils import render_video
+from render_utils import render_video
 from trellis import TrellisImageTo3DPipeline, Gaussian, MeshExtractResult
 
 MAX_SEED = np.iinfo(np.int32).max
