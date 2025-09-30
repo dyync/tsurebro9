@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gradio
+torch
+imageio
+numpy
+Pillow
+easydict
