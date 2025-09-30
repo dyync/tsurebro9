@@ -3,9 +3,26 @@ Pillow>=10.0.0
 uvicorn>=0.24.0
 fastapi>=0.104.0
 numpy>=1.24.0
-torch>=2.0.0
-torchvision>=0.15.0
+torch>=2.0.1+cu118
+torchvision>=0.15.2+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
 imageio>=2.31.0
 easydict>=1.9
 rembg>=2.0.50
 tqdm>=4.66.0
+onnxruntime
+scikit-image
+open3d
+trimesh
+pyrender
+opencv-python
+
+# For point cloud and Gaussian processing
+pytorch3d
+
+# For advanced numerical operations
+scipy
+
+matplotlib
+jupyter
+ipython
