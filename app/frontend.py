@@ -1,6 +1,6 @@
 import gradio as gr
 from PIL import Image
-from .pipeline import preprocess_image, preprocess_images, image_to_3d, get_seed
+from pipeline import preprocess_image, preprocess_images, image_to_3d, get_seed
 
 with gr.Blocks() as demo:
     with gr.Row():

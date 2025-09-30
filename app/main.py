@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-from .pipeline import image_to_3d, get_seed
+from pipeline import image_to_3d, get_seed
 import os
 import logging
 from datetime import datetime
